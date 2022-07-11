@@ -1,0 +1,27 @@
+.footer-color {
+  background-color: var(--header-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contact {
+  margin-left: auto;
+}
+
+.address .add-list + .add-list {
+  margin-top: 9px;
+}
+.adr-list {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--cubik);
+}
+.adr-list:hover,
+.adr-list:focus {
+  color: var(--hover-focus);
+}

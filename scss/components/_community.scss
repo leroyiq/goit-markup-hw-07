@@ -1,0 +1,31 @@
+.comunity {
+  display: flex;
+}
+.comunity-add {
+  margin-left: 70px;
+}
+.comunity-list {
+  display: flex;
+}
+.soc-link.comunity-link {
+  background-color: rgba(255, 255, 255, 0.102);
+}
+.soc-link.comunity-link:hover,
+.soc-link.comunity-link:focus {
+  background-color: var(--hover-focus);
+  cursor: pointer;
+}
+.soc-comunity-footer {
+  fill: var(--bgcolor);
+}
+
+.add {
+  color: var(--bgcolor);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
