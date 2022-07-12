@@ -430,20 +430,14 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.diff-company {
-  display: flex;
-}
-
-.diff-company .hero-item + .hero-item {
-  margin-left: 30px;
-}
-
-.diff {
+.differences {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.diff-icon {
+.differences__list {
+  display: flex;
+}
+.differences__item {
   display: inline-flex;
   width: 270px;
   height: 120px;
@@ -453,16 +447,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-
-.hero-list {
+.differences__title {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
-
-.hero-text {
+.differences__text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;

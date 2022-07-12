@@ -1,34 +1,31 @@
-.diff-company {
-  display: flex;
-}
-.diff-company .hero-item + .hero-item {
-  margin-left: 30px;
-}
-.diff {
+.differences {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.diff-icon {
-  display: inline-flex;
-  width: 270px;
-  height: 120px;
-  background-color: var(--team-bg);
-  border-radius: 4px;
-  margin-bottom: 30px;
-  justify-content: center;
-  align-items: center;
-}
 
-.hero-list {
-  margin-bottom: 10px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    display: inline-flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-bg);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 10px;
 
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-.hero-text {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+  }
 }
