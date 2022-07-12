@@ -1,5 +1,5 @@
 /* Начало оформления лого */
-.logo {
+.head-logo {
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -7,13 +7,15 @@
   font-family: raleway;
   text-decoration: none;
   color: var(--color-text);
+
+  &__part--blue {
+    display: flex;
+    font-size: 26px;
+    font-family: raleway;
+    color: var(--hover-focus);
+  }
 }
-.logo-web {
-  display: flex;
-  font-size: 26px;
-  font-family: raleway;
-  color: var(--hover-focus);
-}
+
 .logo-footer {
   color: var(--bgcolor);
   padding-bottom: 0;
