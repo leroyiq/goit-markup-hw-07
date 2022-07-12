@@ -1,14 +1,24 @@
 .works {
   padding-bottom: 94px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+  }
+  &__description {
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--bgcolor);
+  }
 }
-.works-list {
-  display: flex;
-  justify-content: space-between;
-}
-.work-pic {
-  position: relative;
-}
-.text-bottom {
+.text-container {
   position: absolute;
   display: inline-flex;
   width: 100%;
@@ -18,13 +28,4 @@
   background-color: rgba(47, 48, 58, 0.8);
   justify-content: center;
   align-items: center;
-}
-.text-b {
-  display: inline-flex;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: var(--bgcolor);
 }
