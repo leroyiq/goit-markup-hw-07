@@ -4,10 +4,10 @@
   padding-bottom: 60px;
 }
 
-.address .add-list + .add-list {
+.address .address__item + .address__item {
   margin-top: 9px;
 }
-.adr-list {
+.address__link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
@@ -17,8 +17,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubik);
-}
-.adr-list:hover,
-.adr-list:focus {
-  color: var(--hover-focus);
+
+  &:hover,
+  &:focus {
+    color: var(--hover-focus);
+  }
 }

@@ -1,31 +1,20 @@
 .comunity {
   display: flex;
 }
-.comunity-add {
+.comunity-join {
   margin-left: 70px;
 }
 .comunity-list {
   display: flex;
 }
-.soc-link.comunity-link {
+.soc-list__link.comunity-list__link {
   background-color: rgba(255, 255, 255, 0.102);
 }
-.soc-link.comunity-link:hover,
-.soc-link.comunity-link:focus {
+.soc-list__link.comunity-list__link:hover,
+.soc-list__link.comunity-list__link:focus {
   background-color: var(--hover-focus);
   cursor: pointer;
 }
-.soc-comunity-footer {
+.comunity-list__icon {
   fill: var(--bgcolor);
-}
-
-.add {
-  color: var(--bgcolor);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  padding-top: 12px;
-  margin-bottom: 20px;
 }
