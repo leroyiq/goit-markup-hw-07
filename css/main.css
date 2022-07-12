@@ -608,30 +608,19 @@ img {
   padding-bottom: 94px;
 }
 
-.client-list {
+.client__list {
   display: flex;
   list-style: none;
 }
 
-.card-client {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-  border: 1px solid rgb(175, 177, 184);
-  border-radius: 4px;
-}
-
-.client-item {
+.client__item {
   margin-left: 30px;
 }
-
-.client-item:first-child {
+.client__item:first-child {
   margin-left: 0;
 }
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -644,22 +633,18 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--cubik);
 }
-
-.client-link:hover,
-.client-link:focus {
+.client__link:hover, .client__link:focus {
   border-color: var(--hover-focus);
   cursor: pointer;
 }
 
-.client-pic {
+.client__pic {
   fill: inherit;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: var(--cubik);
 }
-
-.client-link:hover .client-pic,
-.client-link:focus .client-pic {
+.client__link:hover .client__pic, .client__link:focus .client__pic {
   fill: var(--hover-focus);
 }
 
