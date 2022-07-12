@@ -14,37 +14,39 @@
   font-weight: 700;
 }
 
-.ex-card {
+.examples__description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
-.card {
+.examples__item {
   margin-bottom: 30px;
+
+  &:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
 }
-.card:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-.examples-link {
+.examples__link {
   display: block;
   text-decoration: none;
 
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: var(--cubik);
-}
-.examples-link:hover,
-.examples-link:focus {
-  cursor: pointer;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 .overlay {
   position: relative;
   overflow: hidden;
 }
 
-.overlay-text {
+.overlay__text {
   position: absolute;
   display: flex;
   left: 0;
@@ -67,12 +69,12 @@
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: var(--cubik);
-}
 
-.examples-link:hover .overlay-text,
-.examples-link:focus .overlay-text {
-  transform: translateY(0);
-  opacity: 1;
+  .examples__link:hover &,
+  .examples__link:focus & {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .name-cards {
